@@ -19,7 +19,7 @@ const config =
   require("./config.json");
 client.config = config;
 // Terminal log
-client.logger = require("./modules/Logger");
+client.logger = require("./modules/logger");
 require("./modules/functions.js")(client);
 fs.readdir("./events/", (err, files) => {
   if (err) return
@@ -49,5 +49,5 @@ fs.readdir("./commands/", (err,
       `[HZRD IS KING] ${commandName} Is Ready!`));
     client.commands.set(commandName, props);
   });
-  client.login('TOKEN HERE');
+  client.login('NjkzMTk2OTM2ODQ4ODY3Mzky.XoKViQ._GEr7Mj064updQrv_hFGW6w57EU');
 });

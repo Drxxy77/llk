@@ -4,11 +4,11 @@ module.exports.run = async (bot, message, args) => {
 
   var embed = new Discord.RichEmbed()
 
-      .addField("Bot Name", "Denty's Neko Maid", true)
+      .addField("Bot Name", "Drxxy Jr", true)
     
-      .addField("Owner", "⋞Denty Mods⋟(LxS)#2745", true)
+      .addField("Owner", "Drxxy#3671", true)
 
-         .addField("You can invite Denty's Maid Bot to your server by", "[Clicking here](https://discordapp.com/oauth2/authorize?client_id=546793683735937034&scope=bot&permissions=268435646)", true)
+         .addField("You want a custom made discord bot?", "DM Drxxy#3671 I will put the utmost effor into your bot!", true)
  
       .addField("How To Donate", "Type (d.donate) To Donate!", true) 
       
